@@ -245,7 +245,11 @@
             <form name="contact" netlify>
                 <input type="hidden" name="_subject"/>
                 <input type="email" name="_replyto" placeholder="Tu email" required>
-                <textarea name="message" placeholder="Tu message" required></textarea>
+                <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                <div>
+                    <div data-netlify-recaptcha="true" placeholder="Resolver captcha antes de enviar"></div>
+                    
+                </div>
                 <button type="submit">Enviar</button>
             </form>
         </div>
